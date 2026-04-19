@@ -2,14 +2,7 @@ const expandir = document.getElementById('expansao')
 const input = document.getElementById('input-quantidade')
 const gerarPDF = document.getElementById ('btn-gerar')
 const formProposta = document.getElementById('form-proposta')
-gerarPDF.addEventListener
-expandir.addEventListener('click', () => {
 
-if (expandir.checked){
-    input.classList.toggle('show')
-}
-
-})
 
 
 const form = document.getElementById('form-proposta');
@@ -22,6 +15,7 @@ form.addEventListener('submit', (e) => {
 
   console.log(nome)
   console.log(local)
+
   const dados = {
     nome: nome,
     local: local
@@ -29,7 +23,7 @@ form.addEventListener('submit', (e) => {
 
   localStorage.setItem('propostaData', JSON.stringify(dados))
       e.preventDefault();
-
+  window.location.href = "proposta.html"
 
 
   
