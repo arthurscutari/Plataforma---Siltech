@@ -1,0 +1,7 @@
+.app {
+
+    height: 80vh;
+    width: 80vw;
+    background-color:#273c75;
+    display: flex;
+box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;}

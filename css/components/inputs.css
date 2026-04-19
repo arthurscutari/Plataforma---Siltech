@@ -1,0 +1,50 @@
+.input-group {
+  position: relative;
+  width: 300px;
+}
+
+.input, select {
+  width: 100%;
+  padding: 10px 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  margin-top: 5px;
+  margin-bottom: 12px;
+  font-size: 14px;
+  outline: none;
+}
+
+.input-label {
+  font-size: 13px;
+  color: #555;
+}
+
+.input-quantidade {
+  display: none;
+position: relative;
+  width: 300px;
+}
+
+.input-quantidade-grupo{
+   width: 100%;
+  padding: 10px 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  margin-top: 5px;
+  margin-bottom: 12px;
+  font-size: 14px;
+  outline: none;
+}
+
+.input-label-quantidade {
+font-size: 13px;
+  color: #555;
+}
+
+.show {
+
+  display: block;
+}
+.hidden {
+  display: none;
+}

@@ -1,0 +1,22 @@
+.icon {
+
+    font-size: 18px;
+    color: white;
+    padding: .5rem;
+}
+
+.p-nav {
+
+    font-size: 14px;
+    padding: 1rem;
+    color: white;
+    margin: 0;
+}
+.title-container {
+
+    padding: 1rem;
+    font-size: 24px;
+    font-weight: 700;
+    color: #FFC107;
+    margin: 0;
+}

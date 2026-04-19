@@ -1,0 +1,28 @@
+.card-input {
+
+   width: 680px;
+}
+
+.card-nav {
+
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.card {
+
+
+background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  border: 1px solid #e5e5e5;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    width: 100%;
+  }
+
+  .card h2 {
+  font-size: 18px;
+  margin-bottom: 16px;
+  color: #1f2a44;
+}
