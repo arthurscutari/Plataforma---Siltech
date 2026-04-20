@@ -39,3 +39,27 @@ span {
 
     color: red;
 }   
+
+#btn-gerar-pdf {
+    position: fixed;
+    bottom: 80px;       /* distância do fundo */
+    left: 50%;          /* joga pro meio */
+    transform: translateX(-50%); /* corrige o centro real */
+    
+    height: 40px;
+    width: 240px;
+    z-index: 50;
+}
+#btn-cancelar-pdf{
+    position: fixed;
+    bottom: 20px;       /* distância do fundo */
+    left: 50%;          /* joga pro meio */
+    transform: translateX(-50%); /* corrige o centro real */
+    
+    height: 40px;
+    width: 240px;
+    z-index: 50;
+    background-color: transparent;
+    color: #e74c3c;
+    border: 1px solid #e74c3c;
+}

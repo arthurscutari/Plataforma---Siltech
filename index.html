@@ -56,14 +56,14 @@
       <main >
         <section class="section-group">
           <h2 class="title-container">Proposta Comercial</h2>
-          <form action="submit" class="form-proposta" id="form-proposta">
+          <form class="form-proposta" id="form-proposta">
             <section class="card">
               <h2>Cliente e Localização</h2>
               <div class="input-group">
                 <label class="input-label">Canal de Vendas</label>
-                <select type="text" class="input">
-                    <option value="">Google</option>
-                    <option value="">Facebook</option>
+                <select type="text" class="input" id="canal-form__proposta">
+                    <option value="Google">Google</option>
+                    <option value="Facebook">Facebook</option>
                 </select>
             </div>
               <div class="input-group">
@@ -98,28 +98,28 @@
               <h2>Consumo e Instalação</h2>   
             <div class="input-group">
                 <label class="input-label">Módulo</label>
-                <select type="text" class="input">
-                    <option value="">610Wp Tier 1</option>
+                <select type="text" class="input" id="modulo-form__proposta">
+                    <option value="610Wp Tier 1">610Wp Tier 1</option>
                 </select>
               </div>
               <div class="input-group">
                 <label class="input-label">Inversor</label>
-                <select type="text" class="input">
-                    <option value="">String Ongrid</option>
+                <select type="text" class="input" id="inversor-form__proposta">
+                    <option value="String Ongrid">String Ongrid</option>
                 </select>
               </div>
               <div class="input-group">
                 <label class="input-label">Instalação</label>
-                <select type="text" class="input">
-                    <option value="">Bifásico</option>
-                    <option value="">Trifásico</option>
+                <select type="text" class="input" id="instalacao-form__proposta">
+                    <option value="Bifásico">Bifásico</option>
+                    <option value="Trifásico">Trifásico</option>
                 </select>
             </div>
               <div class="input-group">
                 <label class="input-label">Tellhado</label>
-                <select type="text" class="input">
-                    <option value="">Cerâmico</option>
-                    <option value="">Alumínio</option>
+                <select type="text" class="input" id="telhado-form__proposta">
+                    <option value="Cerâmico">Cerâmico</option>
+                    <option value="Alumínio">Alumínio</option>
                 </select>
             </div>
             
@@ -128,7 +128,7 @@
               <h2>Configuração e Promoção</h2>
              <div class="input-group">
                 <label class="input-label">Tabela de Promoção</label>
-                <input type="text" class="input">
+                <input type="text" class="input" id="promocao-form__proposta">
             </div>
             <div class="grupo">
                 <label class="label">Sistema Híbrido</label>
