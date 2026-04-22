@@ -22,7 +22,7 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=dashboard"
     />
-    <title>Document</title>
+    <title>Siltech</title>
   </head>
   <body>
     <section class="app">
@@ -30,31 +30,36 @@
         <img src="img/Logo.png" class="logo" alt="" />
         <h1>SILTECH</h1>
         <nav class="nav-sidebar ">
-          <div class="card-nav proposta-animation">
+          <div class="card-nav nav-proposta">
             <i class="bi bi-clipboard-plus icon"></i>
             <p class="p-nav">Proposta</p>
           </div>
-          <div class="card-nav">
+          <div class="card-nav nav-dashboard">
             <i class="bi bi-graph-up-arrow icon"></i>
             <p class="p-nav">Dashboard</p>
           </div>
-          <div class="card-nav">
+          <div class="card-nav nav-historico">
             <i class="bi bi-card-list icon"></i>
-            <p class="p-nav">Projetos</p>
+            <p class="p-nav">Histórico</p>
           </div>
-          <div class="card-nav">
+          <div class="card-nav nav-banco">
             <i class="bi bi-database icon"></i>
             <p class="p-nav">Banco</p>
           </div>
-          <div class="card-nav">
+          <div class="card-nav nav-config">
             <i class="bi bi-gear icon"></i>
             <p class="p-nav">Configurações</p>
           </div>
+          <div class="card-nav nav-perfil">
+            <i class="bi bi-person-circle icon"></i>
+            <p class="p-nav">Profile</p>
+          </div>
+          
         </nav>
         <p>Versão v1.0.0</p>
       </sidebar>
       <main >
-        <section class="section-group">
+        <section class="section-group section-proposta hidden">
           <h2 class="title-container">Proposta Comercial</h2>
           <form class="form-proposta" id="form-proposta">
             <section class="card">
@@ -150,7 +155,29 @@
             </div>
                   <button class="btn btn--primary" id="btn-gerar">Gerar Proposta</button>
             </section>
-                    </form>
+          </form>
+        </section>
+        <section class="section-group section-dashboard hidden">
+          <h2 class="title-container">Dashboard</h2>
+          <div class="container-info"></div>
+        </section>
+         <section class="section-group section-historico hidden">
+          <h2 class="title-container">Historico</h2>
+          <div class="container-info"></div>
+        </section>
+         <section class="section-group section-banco hidden">
+          <h2 class="title-container">Banco de dados</h2>
+          <div class="container-info"></div>
+        </section>
+        <section class="section-group section-config hidden">
+          <h2 class="title-container">Configurações</h2>
+                    <div class="container-info"></div>
+
+        </section>
+        <section class="section-group section-perfil hidden">
+
+          <h2 class="title-container">Profile</h2>
+           <div class="container-info"></div>
         </section>
       </main>
     </section>

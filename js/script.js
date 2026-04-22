@@ -37,3 +37,93 @@ gerarPDF.addEventListener('click', (e) => {
 
   
 });
+
+//Código navegação//
+
+const navProposta = document.querySelector('.nav-proposta')
+const navDashboard = document.querySelector('.nav-dashboard')
+const navHistorico = document.querySelector('.nav-historico')
+const navBanco = document.querySelector('.nav-banco')
+const navConfig = document.querySelector('.nav-config')
+const navPerfil = document.querySelector('.nav-perfil')
+
+const secProposta = document.querySelector('.section-proposta')
+const secDashboard = document.querySelector('.section-dashboard')
+const secHistorico = document.querySelector('.section-historico')
+const secBanco = document.querySelector('.section-banco')
+const secConfig = document.querySelector('.section-config')
+const secPerfil = document.querySelector('.section-perfil')
+
+navProposta.addEventListener('click', ()=> {
+
+
+
+  secProposta.classList.remove('hidden')
+  secDashboard.classList.add('hidden')
+  secHistorico.classList.add('hidden')
+  secBanco.classList.add('hidden')
+  secConfig.classList.add('hidden')
+  secPerfil.classList.add('hidden')
+
+})
+
+navDashboard.addEventListener('click', ()=> {
+
+
+
+  secProposta.classList.add('hidden')
+  secDashboard.classList.remove('hidden')
+  secHistorico.classList.add('hidden')
+  secBanco.classList.add('hidden')
+  secConfig.classList.add('hidden')
+  secPerfil.classList.add('hidden')
+
+})
+navHistorico.addEventListener('click', ()=> {
+
+
+
+  secProposta.classList.add('hidden')
+  secDashboard.classList.add('hidden')
+  secHistorico.classList.remove('hidden')
+  secBanco.classList.add('hidden')
+  secConfig.classList.add('hidden')
+  secPerfil.classList.add('hidden')
+
+})
+navBanco.addEventListener('click', ()=> {
+
+
+
+  secProposta.classList.add('hidden')
+  secDashboard.classList.add('hidden')
+  secHistorico.classList.add('hidden')
+  secBanco.classList.remove('hidden')
+  secConfig.classList.add('hidden')
+  secPerfil.classList.add('hidden')
+
+})
+navConfig.addEventListener('click', ()=> {
+
+
+
+  secProposta.classList.add('hidden')
+  secDashboard.classList.add('hidden')
+  secHistorico.classList.add('hidden')
+  secBanco.classList.add('hidden')
+  secConfig.classList.remove('hidden')
+  secPerfil.classList.add('hidden')
+
+})
+navPerfil.addEventListener('click', ()=> {
+
+
+
+  secProposta.classList.add('hidden')
+  secDashboard.classList.add('hidden')
+  secHistorico.classList.add('hidden')
+  secBanco.classList.add('hidden')
+  secConfig.classList.add('hidden')
+  secPerfil.classList.remove('hidden')
+
+})

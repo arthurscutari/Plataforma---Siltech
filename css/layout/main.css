@@ -9,9 +9,20 @@ main  {
 }
 .section-group {
 
-    display: flex;
+    
     flex-direction: column;
     gap: 10px;
     width: 100%;
 }
+.container-info {
+    display: flex;
+    flex: 1;
+    background-color: red;
+}
+.hidden {
 
+    display: none;
+}
+.section-proposta, .section-dashboard, .section-historico, .section-banco, .section-config, .section-perfil{
+    display: flex;
+}

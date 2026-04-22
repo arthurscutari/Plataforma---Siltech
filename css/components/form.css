@@ -1,9 +1,9 @@
 .form-proposta {
  
   width: 100%;
-  display: flex;
   padding: 1rem;
   gap: 24px;
+  display: flex;
 }
 
 

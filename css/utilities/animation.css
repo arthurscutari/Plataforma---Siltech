@@ -1,0 +1,18 @@
+.nav-proposta{
+    display: flex;
+}
+.nav-dashboard{
+    display: flex;
+}
+.nav-historico{
+    display: flex;
+}
+.nav-banco{
+    display: flex;
+}
+.nav-config{
+    display: flex;
+}
+.nav-perfil{
+    display: flex;
+}
